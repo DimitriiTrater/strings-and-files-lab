@@ -5,8 +5,11 @@ include(CTest)
 enable_testing()
 
 add_executable(
-    strings-and-files "main.cpp"
+    strings-and-files 
     
+    "main.cpp" "include.hpp"
+
+    "src/lucky_or_unlucky/lucky_or_unlucky.cpp" "src/lucky_or_unlucky/lucky_or_unlucky.hpp"
     
     )
 
