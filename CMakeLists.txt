@@ -10,6 +10,8 @@ add_executable(
     "main.cpp" "include.hpp"
 
     "src/lucky_or_unlucky/lucky_or_unlucky.cpp" "src/lucky_or_unlucky/lucky_or_unlucky.hpp"
+
+    "src/cipher_ceaser/cipher.cpp" "src/cipher_ceaser/cipher.hpp"
     
     )
 
