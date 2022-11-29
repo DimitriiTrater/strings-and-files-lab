@@ -13,6 +13,8 @@ add_executable(
 
     "src/cipher_ceaser/cipher.cpp" "src/cipher_ceaser/cipher.hpp"
     
+    "src/palindrome/palindrome.cpp" "src/palindrome/palindrome.hpp"
+    
     )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
