@@ -16,6 +16,8 @@ add_executable(
     "src/palindrome/palindrome.cpp" "src/palindrome/palindrome.hpp"
     
     "src/from_arab_to_roman/from_arab_to_roman.cpp" "src/from_arab_to_roman/from_arab_to_roman.hpp"
+    
+    "src/arithmetic_expression/arith_ex.cpp" "src/arithmetic_expression/arith_ex.hpp"
     )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
