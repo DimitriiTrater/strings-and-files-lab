@@ -2,7 +2,7 @@
 #include <map>
 
 
-std::string getRoman(int number)
+std::string toRoman(int number)
 {
     std::map<int, std::string> m = 
     {
@@ -41,7 +41,7 @@ std::string getRoman(int number)
             {
                 result += m[level];
                 number -= level;
-                
+
             } while (number >= level);
         }
     }

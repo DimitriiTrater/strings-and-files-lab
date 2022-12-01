@@ -1,3 +1,3 @@
 #pragma once
 
-std::string getRoman(int number);
+std::string toRoman(int number);
