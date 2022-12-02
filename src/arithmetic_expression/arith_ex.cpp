@@ -1,13 +1,7 @@
 #include <iostream>
 #include <regex>
+#include "../setString.hpp"
 
-
-std::string setExpression()
-{
-    std::string expression;
-    std::getline(std::cin, expression);
-    return expression;
-}
 
 int checkInteger(std::smatch result, int num)
 {
@@ -18,7 +12,7 @@ int checkInteger(std::smatch result, int num)
 
 int calculateExpression()
 {
-    std::string expression = setExpression();
+    std::string expression = setStr();
     std::smatch result;
     std::regex reg(
                     "([0-9]*)"

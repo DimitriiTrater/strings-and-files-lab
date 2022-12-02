@@ -23,6 +23,9 @@ add_executable(
     
     "src/string_substring/str_substr.cpp" "src/string_substring/str_substr.hpp"
 
+    "src/translit/translit.cpp" "src/translit/translit.hpp"
+
+    "src/setString.cpp" "src/setString.hpp"
     )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

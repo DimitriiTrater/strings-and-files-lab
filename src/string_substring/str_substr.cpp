@@ -1,11 +1,5 @@
 #include <iostream>
-
-std::string setStr()
-{
-    std::string str;
-    std::getline(std::cin, str);
-    return str;
-}
+#include "../setString.hpp"
 
 
 

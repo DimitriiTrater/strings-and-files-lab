@@ -1,15 +1,5 @@
 #include <iostream>
-
-
-
-std::string setText()
-{
-    std::string text;
-    std::cout << "Enter text:";
-    std::getline(std::cin, text);
-    return text;
-}
-
+#include "../setString.hpp"
 
 
 std::string encode(std::string text, int key)
@@ -61,7 +51,8 @@ void decode(std::string text)
 void printResultCipher()
 {
     int key;
-    std::string text = setText();
+    std::cout << "Enter the text:";
+    std::string text = setStr();
     std::string cipher = encode(text, 3);
 
     std::cout << "Cipher text: " << cipher << std::endl << std::endl;

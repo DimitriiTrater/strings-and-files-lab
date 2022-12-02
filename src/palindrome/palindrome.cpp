@@ -1,12 +1,5 @@
 #include <iostream>
-
-std::string setString()
-{
-    std::string result;
-    std::cout << "Enter string: ";
-    std::cin >> result;
-    return result;
-}
+#include "../setString.hpp"
 
 bool check_palindrome(std::string word)
 {
@@ -24,7 +17,7 @@ bool check_palindrome(std::string word)
 
 void printResultPalindrome()
 {
-    std::string word = setString();
+    std::string word = setStr();
     
     if (check_palindrome(word))
     {
