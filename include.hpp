@@ -8,4 +8,5 @@
 #include "src/arithmetic_expression/arith_ex.hpp"
 #include "src/play_with_path/pwp.hpp"
 #include "src/string_substring/str_substr.hpp"
+#include "src/repl_symb/repl.hpp"
 #include "src/translit/translit.hpp"

@@ -23,6 +23,8 @@ add_executable(
     
     "src/string_substring/str_substr.cpp" "src/string_substring/str_substr.hpp"
 
+    "src/repl_symb/repl.cpp" "src/repl_symb/repl.hpp"
+
     "src/translit/translit.cpp" "src/translit/translit.hpp"
 
     "src/setString.cpp" "src/setString.hpp"
