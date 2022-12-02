@@ -20,6 +20,8 @@ add_executable(
     "src/arithmetic_expression/arith_ex.cpp" "src/arithmetic_expression/arith_ex.hpp"
     
     "src/play_with_path/pwp.cpp" "src/play_with_path/pwp.hpp"
+    
+    "src/string_substring/str_substr.cpp" "src/string_substring/str_substr.hpp"
 
     )
 
