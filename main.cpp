@@ -2,6 +2,7 @@
 
 int main(int argc, char* argv[]) 
 {
-    repl();
+    std::regex reg ("(lol)");
+    regexSearch("loler", reg);
     return 0;
 }

@@ -10,3 +10,4 @@
 #include "src/string_substring/str_substr.hpp"
 #include "src/repl_symb/repl.hpp"
 #include "src/translit/translit.hpp"
+#include "src/regex_searching/regex_searching.hpp"

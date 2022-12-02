@@ -27,7 +27,11 @@ add_executable(
 
     "src/translit/translit.cpp" "src/translit/translit.hpp"
 
+    "src/regex_searching/regex_searching.cpp" "src/regex_searching/regex_searching.hpp"
+
     "src/setString.cpp" "src/setString.hpp"
+
+    
     )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
