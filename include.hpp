@@ -4,3 +4,4 @@
 #include "src/palindrome/palindrome.hpp"
 #include "src/from_arab_to_roman/from_arab_to_roman.hpp"
 #include "src/arithmetic_expression/arith_ex.hpp"
+#include "src/play_with_path/pwp.hpp"

@@ -18,6 +18,9 @@ add_executable(
     "src/from_arab_to_roman/from_arab_to_roman.cpp" "src/from_arab_to_roman/from_arab_to_roman.hpp"
     
     "src/arithmetic_expression/arith_ex.cpp" "src/arithmetic_expression/arith_ex.hpp"
+    
+    "src/play_with_path/pwp.cpp" "src/play_with_path/pwp.hpp"
+
     )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
