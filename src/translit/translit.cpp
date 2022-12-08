@@ -23,12 +23,12 @@ void Transliterate(std::string text)
     
     std::string ret;
 
-    for(int i = 0; i <= text.length(); i++)
+    for (int i = 0; i <= text.length(); i++)
     {
         find = false;
-        for(int j = 0; j < 66; j++)
+        for (int j = 0; j < 66; j++)
         {
-            if(text.substr(i,2).compare(rus[j])==0 )
+            if (text.substr(i,2).compare(rus[j]) == 0 )
             {    
                 ret += eng[j]; 
                 find = true; 

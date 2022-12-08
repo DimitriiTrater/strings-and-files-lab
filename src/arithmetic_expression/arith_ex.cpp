@@ -19,7 +19,7 @@ int calculateExpression()
                     "([+/*-]?)"
                     "([0-9]*)"
                 );
-
+                
     if (std::regex_match(expression, result, reg))
     {
         int first = checkInteger(result, 1);

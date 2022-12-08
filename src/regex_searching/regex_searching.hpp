@@ -1,4 +1,4 @@
 #pragma once
 
 
-void regexSearch(std::string text, std::regex reg);
+void regexSearch(std::string text, std::string reg);

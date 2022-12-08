@@ -2,13 +2,15 @@
 #include <regex>
 
 
-void regexSearch(std::string text, std::regex reg)
+void regexSearch(std::string text, std::string reg)
 {
-    std::smatch result;
-    if (std::regex_search(text, result, reg))
+    int count = 0;
+    int found = text.find(reg);
+    
+    while (found != std::string::npos)
     {
-        std::cout << result[0] << std::endl;
-        return;
+        count++;
+        found = text.find(reg, found + 1);
     }
-    std::cout << "Found nothing";
+    std::cout << "Number of matches: " << count << std::endl;
 }

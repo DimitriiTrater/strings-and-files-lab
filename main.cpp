@@ -2,7 +2,6 @@
 
 int main(int argc, char* argv[]) 
 {
-    std::regex reg ("(lol)");
-    regexSearch("loler", reg);
+    printResultPalindrome();
     return 0;
 }
